@@ -1,17 +1,15 @@
 <template>
   <div class="hello">
-    <Card v-bind:count="1" shape="squiggle" color="red" fill="solid" />
-    <Card v-bind:count="2" shape="diamond" color="green" fill="none" />
-    <Card v-bind:count="3" shape="pill" color="purple" fill="hatch" />
+    <Grid />
   </div>
 </template>
 
 <script>
-import Card from './Card'
+import Grid from './Grid'
 
 export default {
   name: 'Main',
-  components: {'Card': Card}
+  components: {Grid}
 }
 </script>
 
