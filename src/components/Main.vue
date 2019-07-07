@@ -1,15 +1,15 @@
 <template>
   <div class="hello">
-    <Grid />
+    <Gameboard />
   </div>
 </template>
 
 <script>
-import Grid from './Grid'
+import Gameboard from './Gameboard'
 
 export default {
   name: 'Main',
-  components: {Grid}
+  components: {Gameboard}
 }
 </script>
 
