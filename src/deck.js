@@ -111,6 +111,6 @@ export default class Deck {
   }
 
   empty() {
-    return this.cards.length > 0
+    return this.cards.length === 0
   }
 }
