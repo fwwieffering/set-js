@@ -1,6 +1,6 @@
 <template>
     <div class="card-container" v-on:click="$emit('click')">
-        <svg class="card" style="cursor: pointer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 235 360" :height="Math.round(360 * scale)" :width="Math.round(235 * scale)" preserveAspectRatio="xMidYMid meet">
+        <svg class="card" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 235 360" :height="Math.round(360 * scale)" :width="Math.round(235 * scale)" preserveAspectRatio="xMidYMid meet">
         <defs>
             <pattern id="hatch-green" width="5" height="3" patternUnits="userSpaceOnUse">
                 <line class="green" x1="0" y1="0" x2="0" y2="10" stroke-width="2"></line>
